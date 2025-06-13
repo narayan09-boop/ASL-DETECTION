@@ -16,7 +16,7 @@ ASL DETECTION/
 │
 ├── data/
 │   ├── raw/         # Original images organized by class
-│   └── processed/   # Preprocessed images (optional)
+│   └── processed/   # Preprocessed images 
 │
 ├── asl_predict_image.py            # Script to predict ASL from an image
 ├── asl_model_basic.h5              # Trained model file (after training)
@@ -41,9 +41,10 @@ pip install -r requirements.txt
 
 ### 3. Prepare the Dataset
 
-- Extract the `data/raw/` zip folder.
+- Download the dataset from `https://www.kaggle.com/datasets/grassknoted/asl-alphabet`
 - Place your ASL images in the `data/raw/` directory, organized in subfolders by class (e.g., `A`, `B`, ..., `Z`, `nothing`, `space`, `del`).
 
+## NOTE - Only download the data set if you want to train the model on your own.
 
 ### 4. Train the Model
 
