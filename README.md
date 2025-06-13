@@ -14,9 +14,9 @@ This project is a machine learning pipeline for detecting American Sign Language
 ```
 ASL DETECTION/
 │
-├── data/
-│   ├── raw/         # Original images organized by class
-│   └── processed/   # Preprocessed images 
+├── data/           # Download this dataset from the link given below
+│   ├── raw/         
+│   └── processed/    
 │
 ├── asl_predict_image.py            # Script to predict ASL from an image
 ├── asl_model_basic.h5              # Trained model file (after training)
